@@ -14,9 +14,9 @@ import Kniffel_Player
 
 if __name__ == '__main__':
     # Player 1
-    player_1 = Kniffel_Player.Sam('Seb')
+    player_1 = Kniffel_Player.Sam('Sam')
     # Player 2
-    player_2 = Kniffel_Player.Bob('Tom')
+    player_2 = Kniffel_Player.Bob('Bob')
 
     # Vorbereitung der Spielstatistiken
     wincounter = [0,0]
