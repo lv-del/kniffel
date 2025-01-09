@@ -5,12 +5,10 @@ Created on Fri Dec 13 15:24:17 2024
 @author: nguyn
 """
 
-import sys
-sys.path.append(r'C:\Users\nguyn\Documents\Python Kurs\Kniffel')  # Pfad anpassen, wenn nötig
-import matplotlib.pyplot as plt  
 import Kniffel_Game
 import Kniffel_Player
-
+import matplotlib.pyplot as plt 
+ 
 
 if __name__ == '__main__':
     # Player 1
@@ -44,7 +42,6 @@ if __name__ == '__main__':
             wincounter[0] += 1
         elif game.evaluate_score(scoreboard, player_1) < game.evaluate_score(scoreboard, player_2):
             wincounter[1] += 1
-        else:
         
     # Anzahl der Siege und der durchschnittlichen Punktzahlen   
     if total_rounds > 0:
@@ -78,4 +75,9 @@ if __name__ == '__main__':
         
     # Diagramm anzeigen
     plt.show()
+        
+        
+        
+        
+        
         
